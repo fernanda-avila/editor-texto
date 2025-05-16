@@ -1,0 +1,29 @@
+{
+  "name": "text-editor-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "electron": "electron .",
+    "start": "concurrently \"npm run dev\" \"wait-on http://localhost:3000 && npm run electron\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^36.2.1",
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "styled-components": "^6.1.18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@types/react": "^19.1.4",
+    "babel-plugin-styled-components": "^2.1.4",
+    "concurrently": "^9.1.2",
+    "typescript": "^5.8.3",
+    "wait-on": "^8.0.3"
+  }
+}
