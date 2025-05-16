@@ -70,7 +70,7 @@ export default function Home() {
     <>
       <GlobalStyle />
       <Container>
-        <h1>📝text-editor-app</h1>
+        <h1>text-editor-app</h1>
         <ButtonGroup>
           <button onClick={abrir}>Abrir</button>
           <button onClick={salvar}>Salvar</button>
